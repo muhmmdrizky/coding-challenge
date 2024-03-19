@@ -23,10 +23,10 @@ countBy(2,5) === [2,4,6,8,10]
 }
 
 {
-  function countBy2(x, n) {
+  function countBy(x, n) {
     return [...Array(n)].map((el, i) => (i + 1) * x);
   }
 }
 
 console.log(countBy(2, 5));
-console.log(countBy2(1, 10));
+console.log(countBy(1, 10));
